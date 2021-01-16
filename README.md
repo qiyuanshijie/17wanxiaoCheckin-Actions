@@ -6,7 +6,7 @@
 
 **🦄2020.12.02：更新校内打卡，（健康打卡，校内打卡）我全都要！**
 
-**💫2020.11.23：支持多人打卡，重写了一下代码**
+**💫2020.11.23：支持多人打卡，重写了一下代码**  
 
 **⚡2020.11.16：本项目已更新，使用本项目，你不需要抓包就可以使用（理论上大概......）**
 
@@ -122,21 +122,4 @@
 详细对应关系请查看：http://timebie.com/cn/universalbeijing.php
 
 只有健康打卡的小伙伴可以只留着22就可以了，这样其余两个时间就不会打卡
-如果害怕程序报错导致上午健康打卡没打，可设置6点和7点各运行一次即：0 22,23 * * *
-"""
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  schedule:
-    - cron: 0 22,4,9 * * *
-```
-
-### 4、程序报错显示密码错误，还有 * 次机会？
-
-请立马修改 secrets 的密码再尝试运行
-
-### 5、健康打卡问题汇总请前往 [wiki](https://github.com/ReaJason/17wanxiaoCheckin-Actions/wiki#%E5%81%A5%E5%BA%B7%E6%89%93%E5%8D%A1%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB)
-
-### 6、校内打卡问题汇总请前往 [wiki](https://github.com/ReaJason/17wanxiaoCheckin-Actions/wiki#%E6%A0%A1%E5%86%85%E6%89%93%E5%8D%A1%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB)
+如果害怕程序报
