@@ -311,10 +311,9 @@ def server_push(sckey, desp):
     :param desp: 需要推送的内容
     :return:
     """
-    send_url = f"https://sc.ftqq.com/{sckey}.send"
+    send_url = f"https://qmsg.zendee.cn/send/{sckey}"
     params = {
-        "text": "健康打卡推送通知",
-        "desp": desp
+        "msg": desp
     }
     # 发送消息
     res = requests.post(send_url, data=params)
